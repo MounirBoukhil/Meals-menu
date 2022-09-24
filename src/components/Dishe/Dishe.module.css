@@ -1,0 +1,40 @@
+.container{ 
+    width: 90%;
+    border-bottom: 1px solid rgb(37, 17, 0); 
+    font-size: 0.5em;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+}
+#amountContainer{
+    display: inline-block;
+    width: 200px;
+}
+#amountContainer label{
+    font-size: 2em;
+    font-style:bold;
+}
+#amountContainer input{
+      
+    display: inline-block;
+    width: 40px;
+}
+
+.container .buttonContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container div button{
+    width: 100px;
+    background-color: rgb(66, 30, 0);
+    border: 2px solid rgb(66, 30, 0);
+    color: rgb(243, 243, 243);
+    border-radius: 2em;
+    cursor: pointer;
+}
+.container div button:hover{
+    background-color:  rgb(24, 11, 0);
+    border-color:  rgb(24, 11, 0);
+}

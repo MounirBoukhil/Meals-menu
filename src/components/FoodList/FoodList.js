@@ -1,4 +1,5 @@
 import React from 'react'
+import Classes from './FoodList.module.css'
 import Dishe from '../Dishe/Dishe'
 
 const dishes = [
@@ -21,7 +22,7 @@ const dishes = [
             ]
 
 const FoodList = function(){
-    return( <div>
+    return( <div className={Classes.container}>
                 {dishes.map((dishe)=>{
                         return(<Dishe 
                                     name={dishe.name} 
