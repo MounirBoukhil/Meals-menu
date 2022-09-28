@@ -1,23 +1,23 @@
 
-.icon{
-    background-color:  rgb(37, 17, 0); 
-    border: 1px solid rgb(255, 216, 192);
-    text-align: center;
-    width: 150px;
-    height: 35px;
-    border-radius: 2em;
+.icon{ 
+    text-align: center; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon:hover{
+.icon button:hover{
     background-color:  rgb(24, 11, 0); 
     cursor: pointer;
     width: 155px;
     height: 37px;
     transition: 0.8s;
 }
-.icon div{
+.icon button{
+    border-radius: 2em;
+    background-color:  rgb(37, 17, 0); 
+    border: 1px solid rgb(255, 216, 192);
+    width: 150px;
+    height: 35px;
     color: rgb(236, 236, 236);
     font-size: 1em;
 }

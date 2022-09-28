@@ -1,10 +1,10 @@
 import React from 'react'
 import classes from './Cart.module.css'
 
-const Cart =function(){
+const Cart =function(props){
     return(
             <div className={classes.icon}>
-                <div>Your Cart</div>
+                <button onClick={props.onClick}>Your Cart</button>
             </div>
     )
 }

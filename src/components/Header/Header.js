@@ -3,10 +3,10 @@ import Navbar from '../Navbar/Navbar'
 import DescriptionCard from '../DescriptionCard/DescriptionCard'
 import classes from "./Header.module.css"
 
-const Header = function(){
+const Header = function(props){
     return(
         <div className={classes.header}>
-            <Navbar/> 
+            <Navbar onClick={props.onShowCart}/> 
             <DescriptionCard/>
         </div>
     )
